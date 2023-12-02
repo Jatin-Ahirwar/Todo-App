@@ -17,6 +17,7 @@ const Create = (props) => {
     } = props
     const submithandler = (e)=>{
         e.preventDefault()
+        console.log(e)
         const newtask = {
             date: new Date().toLocaleDateString(),
             title,
